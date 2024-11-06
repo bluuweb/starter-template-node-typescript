@@ -42,6 +42,7 @@ npm i -D typescript tsx @types/node pkgroll
 
 ```json
 {
+  "exports": "./dist/index.js",
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/index.ts",
